@@ -1,0 +1,10 @@
+body {
+  background-color: lightgrey;
+}
+header {
+  background-image: url('../img/clear-sky.jpg');
+  background-repeat: no-repeat;
+  background-size:100%;
+  width: 100%;
+
+}
