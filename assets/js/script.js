@@ -47,6 +47,7 @@ function createJQcloudFormattedData(anArrayList) {
         text: item,
         weight: faker.random.number({min:1, max:10}),
         handlers: { click: function() {
+          // url for api
           let url = "https://api.giphy.com/v1/gifs/search?q=" + item + "&api_key=xpk7qtWFTosq9WPfU94mFoqXyCSGmSj9&limit=10";
           var xhr = $.get(url);
           xhr.done(function(results) {
