@@ -291,7 +291,7 @@ jQCloud.prototype = {
         }
         word_span = $('<button>').attr(word.attr);
 
-        word_span.addClass('jqcloud-word btn btn-dark mx-2 my-2 px-1');
+        word_span.addClass('jqcloud-word btn btn-dark raised mx-2 my-2 px-1');
 
         // Apply class
         if (this.options.classPattern) {

@@ -8,3 +8,35 @@ header {
   width: 100%;
 
 }
+#btnCategory {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px #000000;
+}
+#keywords {
+  width: auto;
+  height: 260px;
+}
+/***********************
+  RAISED BUTTONS
+************************/
+.btn-dark.raised {
+	box-shadow: 0 3px 0 0 #007299;
+}
+.btn-dark.raised:active, .btn-dark.raised.active {
+	background: #33a6cc;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+/***********************
+  CUSTON BTN VALUES
+************************/
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
+.btn-dark:active, .btn-dark.active {
+	background: #007299;
+	box-shadow: none;
+  outline:none;
+}
