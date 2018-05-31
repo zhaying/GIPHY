@@ -17,6 +17,48 @@ header {
   width: auto;
   height: 260px;
 }
+.card {
+  position: relative;
+  display: block;
+  padding-top: 1px;
+  /* width: 18rem; */
+}
+.card-img-top {
+  margin-top: 1px;
+  width: 96%;
+
+}
+.card-body {
+  padding: 0;
+display: block;
+}
+.cardBodyCol {
+  margin-left: 100px;
+  padding-left: 27px;
+  padding-right: 0;
+}
+.card-row-1 {
+  padding: 1px;
+  height: 65%;
+}
+.card-row-2 {
+  padding: 1px;
+  height: 29%;
+}
+.fa-stack {
+  padding-bottom: 10px;
+}
+.icon-text {
+    font-family:arial;
+    font-size:.4em;
+    text-align:center;
+    line-height:1em;
+    margin-top:1.4em;
+}
+
+.icon-text small {
+    font-size:.4em;
+}
 /***********************
   RAISED BUTTONS
 ************************/
